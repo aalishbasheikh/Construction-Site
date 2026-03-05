@@ -44,7 +44,7 @@
     </h1>
 
     <ul class="flex w-full">
-      <li class="text-[#ff5e14] text-sm sm:font-bold font-semibold lg:py-4 lg:px-7 md:py-2  sm:px-6 pt-2 pb-0 px-3 border border-gray-100 rounded">Home</li>
+      <li class="text-[#0e025a] text-sm sm:font-bold font-semibold lg:py-4 lg:px-7 md:py-2  sm:px-6 pt-2 pb-0 px-3 border border-gray-100 rounded active:text-[#ff5e14]" >Home</li>
       <li class=" text-[#0e025a] sm:font-bold font-semibold lg:py-4 lg:px-7 md:py-2 py-1 md:px-6 sm:px-12 px-4 pt-2 border border-gray-100 rounded">About Us</li>
       <li class="text-[#0e025a]  sm:font-bold font-semibold lg:py-4 lg:px-7 md:py-2 md:px-6 sm:px-12 px-3 py-1 pt-2 border border-gray-100 rounded">Shop</li>
       <li class= "text-[#0e025a] sm:font-bold font-semibold  lg:py-4 lg:px-7 py-2 md:px-6 sm:px-12 px-3 pt-2 border border-gray-100 rounded">Blog</li>
@@ -96,12 +96,13 @@
 <div class="mt-12">
     <a
           class="btns sm:px-8 px-4 py-3 rounded  bg-[#ff5e14]  text-white   hover:bg-[#ec6923]"
+          target="_blank"
           href="#"
           >Read More</a
         >
             <a
           class="btns sm:px-8 px-4 py-3 bg-[#0e025a] text-white rounded  mt-5 hover:bg-[#150578]"
-          href="#"
+          href="#" target="_blank"
           >Contact Us</a
         >
         </div>
@@ -124,7 +125,7 @@
 </div>
 <div class="  pt-4  flex overflow-x-auto  lg:overflow-visible  md:mt-16  ">
       
-            <div class="card min-w-[280px] ms-1.5  mt-8 rounded  bg-[#120374] lg:ms-10 shadow mb-3 pt-3 ps-2 hover:scale-[1.01] ">
+            <div class="card min-w-[280px] ms-1.5  mt-8 rounded  bg-[#0a0143] lg:ms-10 shadow mb-3 pt-3 ps-2 hover:scale-[1.01] ">
               <div class="card-body">
                 <p class="px-2 py-2  font-semibold text-white">
                Explore the features
@@ -170,7 +171,7 @@
               <h1 class="sm:text-3xl text-2xl font-bold text-[#120374]">Full Project Management</h1>
               <p class="mt-4">A construction project management guide outlines stages like initiation, planning,execution,monitoring,and closure.It includes processes such as budgeting,scheduling,risk management,quality control,and stakeholder communication for sucessful project completion.</p>
               <div class="mt-12">
- <a class="btns  sm:px-6 px-3 py-2 rounded  bg-[#ff5e14]  text-white   hover:bg-[#ec6923]" href="#" >Read More</a>
+ <a class="btns  sm:px-6 px-3 py-2 rounded  bg-[#ff5e14]  text-white   hover:bg-[#ec6923]" href="#"  target="_blank" >Read More</a>
         </div>
             </div>
             </div>
@@ -186,9 +187,9 @@ Projects
 </div>
 <div class="flex md:mt-40 mt-36 ">
 <div class=" md:ms-16 ms-5 flex flex-col md:w-[15%] gap-4">
- <a class="btns  py-2 rounded text-center bg-[#ff5e14]  text-white   hover:bg-[#f46d24]" href="#" >Next</a> 
+ <a class="btns  py-2 rounded text-center bg-[#ff5e14]  text-white   hover:bg-[#f46d24]" href="#"  target="_blank" >Next</a> 
 
-  <a class="btns  py-2 rounded text-center bg-[#13085c] px-1.5 text-white   hover:bg-[#08003e]" href="#"> Previous</a>
+  <a class="btns  py-2 rounded text-center bg-[#13085c] px-1.5 text-white   hover:bg-[#08003e]" href="#"  target="_blank"> Previous</a>
   </div>
   <div class="card  ms-10 flex overflow-x-auto md:overflow-x-auto lg:overflow-visible">
 <div class="card-img md:w-[30%] min-w-[300px]  hover:scale-[1.01]">
@@ -317,10 +318,11 @@ Featured
           Full Construction Management Refers The Comprehensive Oversight And Control of All Aspects Of A Construction Project From Its Inception To Completion. This Management Process Ensures That The Project Meets Its Objectives. Such As Staying Within Budget,Adhering To Timelines,And Maintaining Quality Standards.
         </p>
 
-        <button class="bg-white mb-4 text-orange-500 px-5 py-2 rounded">
-          Read More
-        </button>
-
+         <a
+          class="btns sm:px-3 mt-2 px-2 py-2 rounded  bg-white  text-[#ff5e14]   hover:bg-[#ec6923] hover:text-white"
+          target="_blank"
+          href="#"
+          >Read More</a>
       </div>
 
     </div>
@@ -388,17 +390,41 @@ People
 <h1 class=" md:text-[56px] text-[30px]  text-[#0e025a] font-bold">PROFESSIONAL</h1>
 </div>
 <div class="flex md:flex-row flex-col  justify-center items-center py-24">
-  <div class="lg:w-[17%] md:w-[20%] sm:w-[30%] w-[95%] md:h-[220px] md:ms-0 sm:ms-2 ms-2 me-2 sm:me-0">
-  <img class="h-[290px] w-full object-cover rounded hover:scale-[1.01]" src="assets/IMG_20260305_023401.jpg" alt="">
+  <div class="lg:w-[17%] md:w-[20%] sm:w-[30%] w-[95%] md:h-[290px] md:ms-0 sm:ms-2 ms-2 me-2 sm:me-0 relative group">
+  <img class="h-[290px] w-full object-cover rounded hover:scale-[1.01] " src="assets/IMG_20260305_023401.jpg" alt="">
+  <div class="absolute flex flex-col justify-end  top-0 left-0 text-white opacity-0 inset-0 bg-blue-900/60 group-hover:opacity-100 transition duration-300 p-5">
+    <div class="absolute bottom-0 left-0 p-6">
+<p class="text-white text-sm">Interior Designer</p>
+<h3 class="text-white text-2xl font-semibold">Philip Larson</h3>
+    </div>
+ </div>
   </div>
-      <div class="lg:w-[17%] md:w-[20%] sm:w-[30%] w-full   md:h-[220px] sm:ms-2 ms-2 me-2 sm:me-0  md:mt-0 mt-3">
-  <img class="h-[290px] w-full object-cover rounded hover:scale-[1.01]" src="assets/IMG_20260305_023148.jpg" alt="">
+      <div class="lg:w-[17%] md:w-[20%] sm:w-[30%] w-full   md:h-[290px] relative group  sm:ms-2 ms-2 sm:me-0  md:mt-0 mt-3">
+  <img class="h-[290px] w-[97%] object-cover rounded hover:scale-[1.01]" src="assets/IMG_20260305_023148.jpg" alt="">
+   <div class="absolute flex flex-col justify-end  top-0 left-0 text-white opacity-0 inset-0 bg-blue-900/60 group-hover:opacity-100 transition duration-300 p-5">
+    <div class="absolute bottom-0 left-0 p-6">
+<p class="text-white text-sm">Interior Designer</p>
+<h3 class="text-white text-xl font-semibold">Amelia Armstrong</h3>
+    </div>
+ </div>
   </div>
-        <div class="lg:w-[17%] md:w-[20%] sm:w-[30%] w-[97%] md:h-[220px] sm:ms-2 ms-2 me-2 sm:me-0 md:mt-0 mt-3 ">
+        <div class="lg:w-[17%] md:w-[20%] sm:w-[30%] w-[97%] md:h-[290px] relative group sm:ms-2 ms-2 me-2 sm:me-0 md:mt-0 mt-3 ">
   <img class="h-[290px] w-full object-cover rounded hover:scale-[1.01]" src="assets/IMG_20260305_024109.jpg" alt="">
+   <div class="absolute flex flex-col justify-end  top-0 left-0 text-white opacity-0 inset-0 bg-blue-900/60 group-hover:opacity-100 transition duration-300 p-5">
+    <div class="absolute bottom-0 left-0 p-6">
+<p class="text-white text-sm">Interior Designer</p>
+<h3 class="text-white text-2xl font-semibold">Marco Valli</h3>
+    </div>
+ </div>
   </div>
-       <div class="lg:w-[17%] md:w-[20%] sm:w-[30%] w-[96%] md:h-[220px] sm:ms-2 ms-2 me-2 sm:me-0 md:mt-0 mt-3 ">
+       <div class="lg:w-[17%] md:w-[20%] sm:w-[30%] w-[96%]  md:h-[290px] relative group sm:ms-2 ms-2 me-2 sm:me-0 md:mt-0 mt-3 ">
   <img class="h-[290px] w-full object-cover rounded hover:scale-[1.01]" src="assets/IMG_20260305_023430.jpg" alt="">
+   <div class="absolute flex flex-col justify-end  top-0 left-0 text-white opacity-0 inset-0 bg-blue-900/60 group-hover:opacity-100 transition duration-300 p-5">
+    <div class="absolute bottom-0 left-0 p-6">
+<p class="text-white text-sm">Interior Designer</p>
+<h3 class="text-white text-2xl font-semibold">Brittney Ball</h3>
+    </div>
+ </div>
   </div>
 </div>
       </section>
